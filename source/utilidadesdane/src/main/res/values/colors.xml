@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Colores default calendario -->
+    <color name="default_fondo_semana">#8e5572</color>
+    <color name="default_fondo_mes">#d0d0d0</color>
+    <color name="default_letra_mes">#8e5572</color>
+
+    <!-- Autenticacion -->
+    <color name="fondo_toast_mensaje">#DAAA</color>
+    <color name="texto_toast_mensaje">#FFF</color>
+
+</resources>

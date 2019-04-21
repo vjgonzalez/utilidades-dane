@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<cuestionario
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com cuestionario.xsd">
+    
+    <pregunta texto="¿DE QUÉ COLOR ES EL CIELO?" puntaje="1">
+        <respuestaCorrecta  texto="CELESTE"/>
+        <respuestaInCorrecta texto="ROJO"/>
+        <respuestaInCorrecta texto="AMARILLO"/>
+        <respuestaInCorrecta texto="VERDE"/>
+        <respuestaInCorrecta texto="BLANCO"/>
+    </pregunta>
+
+    <pregunta texto="¿QUÉ ROPA VA EN LOS PIES?" puntaje="10">
+        <respuestaCorrecta texto="ZAPATILLAS" />
+        <respuestaCorrecta texto="MEDIAS" />
+        <respuestaInCorrecta texto="REMERA" />
+        <respuestaInCorrecta texto="CAMPERA" />
+        <respuestaInCorrecta texto="GUANTES" />
+        <respuestaInCorrecta texto="PANTALÓN" />
+    </pregunta>
+
+    <pregunta texto="¿DÓNDE USARÍAS UNA CAMISA FORMAL?">
+        <respuestaCorrecta texto="EN UN CASAMIENTO" />
+        <respuestaInCorrecta texto="EN LA PLAYA" />
+        <respuestaInCorrecta texto="JUGANDO EN LA PLAZA" />
+        <respuestaInCorrecta texto="HACIENDO DEPORTE" />
+        <respuestaInCorrecta texto="DURMIENDO EN LA CAMA" />
+    </pregunta>
+
+</cuestionario>

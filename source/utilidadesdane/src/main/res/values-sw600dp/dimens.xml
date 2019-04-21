@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <dimen name="celda_calendario_marca_evento_tam">8sp</dimen>
+    <dimen name="celda_calendario_padding">8sp</dimen>
+    <dimen name="calendario_texto">20sp</dimen>
+
+    <dimen name="calendario_barra_mes_padding">4sp</dimen>
+    <dimen name="calendario_barra_dias_padding">2sp</dimen>
+    <dimen name="calendario_barra_mes_flecha_alt">16sp</dimen>
+</resources>

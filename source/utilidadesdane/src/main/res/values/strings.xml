@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UtilidadesDane</string>
+
+    <!-- File Utils -->
+    <string name="nombre_archivo_imagen">IMAGEN_</string>
+    <string name="extension_archivo_imagen">.jpg</string>
+
+    <string name="dom">DOM</string>
+    <string name="lun">LUN</string>
+    <string name="mar">MAR</string>
+    <string name="mie">MIE</string>
+    <string name="jue">JUE</string>
+    <string name="vie">VIE</string>
+    <string name="sab">SAB</string>
+
+    <!-- Módulo Autenticación -->
+    <string name="dialogo_autenticar_titulo">INGRESA EL PIN DE SEGURIDAD</string>
+    <string name="dialogo_autenticar_ok">LOGUEAR</string>
+    <string name="dialogo_nuevo_pin_titulo">INGRESE EL NUEVO PIN</string>
+    <string name="dialogo_nuevo_pin_reingreso_titulo">INGRESE EL PIN NUEVAMENTE</string>
+    <string name="dialogo_nuevo_pin_ok">ACEPTAR</string>
+    <string name="dialogo_cancelar">CANCELAR</string>
+    <string name="error_formato_pin">EL PIN DEBE SER DE %1$d NÚMEROS</string>
+    <string name="error_nuevo_pin_reingreso">NO COINCIDE CON EL PIN ORIGINAL</string>
+
+    <!-- Módulo Cuestionario -->
+    <string name="cuestionario_pregunta_x_de_y">Pregunta %1$d/%2$d</string>
+    <string name="error_parseo_cuestionario">Formato de cuestionario incorrecto.</string>
+    <string name="texto_respuesta_default">OPCIÓN</string>
+    <string name="texto_pregunta_default">PREGUNTA X/Y</string>
+    <string name="texto_respuesta_correcta_default">CORRECTO</string>
+    <string name="texto_respuesta_incorrecta_default">INTENTA NUEVAMENTE</string>
+    <string name="texto_cuestionario_completo_default">CUESTIONARIO COMPLETO. ¡FELICITACIONES!</string>
+
+    <string name="mensaje_error">Se ha producido un error. Por favor intenta nuevamente.</string>
+
+</resources>

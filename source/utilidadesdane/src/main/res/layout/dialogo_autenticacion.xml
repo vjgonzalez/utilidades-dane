@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margen_horizontal_dialogo_autenticacion"
+        android:layout_marginTop="@dimen/margen_vertical_dialogo_autenticacion"
+        android:layout_marginRight="@dimen/margen_horizontal_dialogo_autenticacion"
+        android:layout_marginBottom="@dimen/margen_vertical_dialogo_autenticacion"
+        android:fontFamily="sans-serif"
+        android:hint="@string/dialogo_autenticar_titulo"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:maxLines="1" />
+</LinearLayout>

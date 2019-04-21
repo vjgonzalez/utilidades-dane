@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://www.w3schools.com"
+    xmlns="https://www.w3schools.com"
+    elementFormDefault="qualified">
+
+    <xs:element name="cuestionario" type="CuestionarioType" />
+
+
+    <xs:complexType name="CuestionarioType">
+        <xs:sequence>
+            <xs:element name="pregunta" type="PreguntaType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PreguntaType">
+        <xs:sequence>
+            <xs:element name="respuestaCorrecta" type="RespuestaType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="respuestaInCorrecta" type="RespuestaType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="texto" type="xs:string" use="required"/>
+        <xs:attribute name="puntaje" type="xs:int" use="optional" default="1"/>
+    </xs:complexType>
+
+    <xs:complexType name="RespuestaType">
+        <xs:attribute name="texto" type="xs:string" use="required"/>
+    </xs:complexType>
+</xs:schema>

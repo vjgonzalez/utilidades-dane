@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ar.uba.fi.utilidadesdane">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:name="ar.uba.fi.utilidadesdane.app.DaneApplication">
+
+        <activity android:name=".imagenes.TomarFotoActivity" />
+        <activity android:name=".imagenes.SeleccionarFotoActivity" />
+        <receiver android:name=".notificaciones.Receptor" />
+        <activity android:name=".cuestionario.CuestionarioBaseActivity" />
+
+        <provider
+            android:name=".imagenes.CustomFileProvider"
+            android:authorities="${applicationId}.ar.uba.fi.utilidadesdane.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

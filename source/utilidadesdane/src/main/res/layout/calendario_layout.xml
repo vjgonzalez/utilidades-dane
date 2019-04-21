@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/borde_calendario"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_fondo_mes"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/calendario_barra_mes_padding"
+        android:paddingBottom="@dimen/calendario_barra_mes_padding">
+
+        <ImageView
+            android:id="@+id/mes_anterior"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/calendario_barra_mes_flecha_alt"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/anterior" />
+
+        <TextView
+            android:id="@+id/mes_actual"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="@color/default_letra_mes"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/mes_siguiente"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/calendario_barra_mes_flecha_alt"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/siguiente" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_fondo_semana"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/calendario_barra_dias_padding"
+        android:paddingBottom="@dimen/calendario_barra_dias_padding">
+
+        <TextView
+            android:id="@+id/dom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendario_barra_dias_margen"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dom"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendario_barra_dias_margen"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/lun"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendario_barra_dias_margen"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/mar"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendario_barra_dias_margen"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/mie"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendario_barra_dias_margen"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/jue"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendario_barra_dias_margen"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/vie"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendario_barra_dias_margen"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/sab"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/calendario_texto"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/cuadricula_calendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="7"
+        android:scrollbarFadeDuration="0" />
+</LinearLayout>

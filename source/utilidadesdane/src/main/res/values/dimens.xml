@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="celda_calendario_marca_evento_tam">6sp</dimen>
+    <dimen name="celda_calendario_padding">4sp</dimen>
+
+    <dimen name="calendario_texto">14sp</dimen>
+    <dimen name="calendario_barra_mes_padding">2sp</dimen>
+    <dimen name="calendario_barra_mes_flecha_alt">12sp</dimen>
+    <dimen name="calendario_barra_dias_padding">0sp</dimen>
+    <dimen name="calendario_barra_dias_margen">0sp</dimen>
+
+    <!-- Autenticacion -->
+    <dimen name="margen_horizontal_dialogo_autenticacion">8sp</dimen>
+    <dimen name="margen_vertical_dialogo_autenticacion">12sp</dimen>
+</resources>

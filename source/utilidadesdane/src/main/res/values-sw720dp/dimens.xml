@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="calendario_texto">25sp</dimen>
+
+    <dimen name="calendario_barra_mes_padding">8sp</dimen>
+    <dimen name="calendario_barra_mes_flecha_alt">20sp</dimen>
+    <dimen name="calendario_barra_dias_padding">2sp</dimen>
+    <dimen name="calendario_barra_dias_margen">2sp</dimen>
+</resources>
